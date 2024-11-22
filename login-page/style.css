@@ -1,0 +1,169 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content:center;
+    background-color: rgba(88, 88, 3, 0.585);
+    overflow: hidden;
+}
+
+.ipl-img img{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.login_text {
+    padding: 10px 0px 10px 0px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    font-weight: 900;
+    text-shadow: h-shadow v-shadow blur-radius color;
+    text-shadow: 0 0 5px #000000, 0 0 8px #14146a;
+
+}
+
+.anton{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+  
+
+
+.outer{
+    width: 45vmax;
+    padding: 100px;
+    background: rgba(0, 25, 36, 0.895);
+    background: linear-gradient(126deg, rgba(20,17,52,0.9585084033613446) 16%, rgba(49,35,102,1) 48%, rgba(14,0,71,0.9585084033613446) 100%); 
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(58,9,121,0.891281512605042) 59%, rgba(14,0,71,1) 100%); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center; 
+    box-shadow: 10px 10px;
+    position: absolute;
+    border: 2px solid white;
+    margin-right: 2%;
+}
+
+.inner{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(75, 15, 15, 0.162);
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 30vmax;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px;
+
+    /* color: white; */
+}
+
+
+.elements label{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    color: white;
+    font-family: "Anton", sans-serif;
+}
+
+.elements input{
+    margin-top: 5px;
+    border-radius: 3px;
+    background-color: rgba(75, 15, 15, 0.023);
+    /* text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
+    border: 2px solid white;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.797);
+
+   
+}
+
+.elements .submi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0px 15px 0px;
+    /* padding: 0px 60px 0px 60px; */
+    padding: 5px;
+    cursor: pointer;
+    font-weight:555;
+    color: white
+    
+    
+}
+
+.divsem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: cent
+}
+
+.dd{
+    margin-top: 6%;
+    margin-right: 5px;
+    margin-left: 2px;
+    padding: 0px 4px 0px 4px;
+    border-radius: 20px;
+}
+
+
+.side-img{
+    display: flex;
+    width:45vmax;
+    height: 79vmin;
+    /* background: rgba(0, 25, 36, 0.895);
+    background: linear-gradient(126deg, rgba(20,17,52,0.9585084033613446) 16%, rgba(50, 35, 102, 0.419) 48%, rgba(14,0,71,0.9585084033613446) 100%); 
+     */
+    position: absolute;
+    margin: 750px;
+    
+}
+.side-img video{
+    border-radius: 20px;
+    opacity: 85%;
+    box-shadow: #000000 5px 5px 5px 8px;
+}
+
+@media only screen and (max-width: 940px) {
+    .main {
+      background-color: rgb(207, 230, 173);
+      display: flex;
+      align-items: center;
+    }
+    .divsem{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    }
+
+    .side-img {
+        visibility: hidden;
+    }
+
+  }
